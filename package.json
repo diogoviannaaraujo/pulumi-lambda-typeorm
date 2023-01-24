@@ -1,0 +1,15 @@
+{
+    "name": "pulumi-lambda-typeorm",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "@types/node": "^16"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^5.0.0",
+        "@pulumi/aws-apigateway": "^1.0.1",
+        "@pulumi/awsx": "^1.0.0",
+        "@pulumi/pulumi": "^3.0.0",
+        "pg": "^8.8.0",
+        "typeorm": "^0.3.11"
+    }
+}
