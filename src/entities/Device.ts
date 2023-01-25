@@ -1,12 +1,12 @@
-import { Entity, PrimaryColumn, Column } from 'typeorm'
+import { Entity, PrimaryColumn, Column } from "typeorm";
 
 @Entity()
 class Device {
-    @PrimaryColumn()
-    id!: number
+  @PrimaryColumn()
+  id!: number;
 
-    @Column()
-    publicKey!: string
+  @Column()
+  publicKey!: string;
 }
 
-export default Device
+export default Device;
